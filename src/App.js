@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person.js';
-
+// Class method
 class App extends Component {
 
 	state = {
@@ -37,7 +37,7 @@ class App extends Component {
 	}
 
 
-
+// CSS Rendering through js
 	render() {
 
 		const style = {
